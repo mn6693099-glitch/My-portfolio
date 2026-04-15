@@ -202,3 +202,9 @@ header ul a:hover {
   }
 
 }
+
+@media (max-width:450px){
+  header ul {
+    flex-direction: column;
+  }
+}
