@@ -23,6 +23,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 15px 20px;
 }
 
 header .por {
@@ -182,4 +183,22 @@ header ul a:hover {
 .call:hover{
     transform: translateY(-10px);
     background: #00796B;
+}
+
+@media (max-width: 800px){
+
+  header {
+    flex-direction: column; /* 👈 اللوجو فوق */
+    align-items: center;
+  }
+
+  header ul {
+    display: flex;
+    flex-direction: row; /* 👈 تفضل أفقية */
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+    
+  }
+
 }
